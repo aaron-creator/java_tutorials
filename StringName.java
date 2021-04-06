@@ -7,7 +7,6 @@ public class StringName {
        System.out.println("Enter a String");
        name = sc.nextLine();
        System.out.println(name);
-       
-
+       sc.close();
    } 
 }
